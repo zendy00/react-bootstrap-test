@@ -25,10 +25,8 @@ class Forms extends React.Component {
                             <div class="row">
                                 <div class="col-lg-6">
                                     <form role="form" class="form-horizontal">
-                                      <Input label="Text Input" help="Example block-level help text here." has="error">
-                                        {/*<input type="text" class="form-control input-sm" />*/}
-                                        <span>test</span>
-                                      </Input>
+                                      <Input label="Text Input" help="Example block-level help text here." has="error" />
+                                      <Input help="Example block-level help text here." has="error" />
                                       <Input label="with Placeholder" placeholder="Enter text"></Input>
                                       <Label label="Static Control" text="zendy@sainfo.co.kr" />
                                       <div class="form-group">
